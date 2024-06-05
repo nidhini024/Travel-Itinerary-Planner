@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan Trip</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Plan Trip</h1>
+    </header>
+    <main>
+        <form action="plan_trip.php" method="POST">
+            <label for="destination">Destination:</label>
+            <input type="text" id="destination" name="destination" required><br>
+            <label for="start_date">Start Date:</label>
+            <input type="date" id="start_date" name="start_date" required><br>
+            <label for="end_date">End Date:</label>
+            <input type="date" id="end_date" name="end_date" required><br>
+            <button type="submit">Plan Trip</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Travel Itinerary Planner</p>
+    </footer>
+</body>
+</html>
